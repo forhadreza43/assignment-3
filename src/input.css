@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @plugin "daisyui";
-
+@import "animate.css";
 @theme {
   --font-sora: "Sora", serif;
   --font-poppins: "Poppins", serif;
@@ -26,9 +26,6 @@
   border-color: var(--color-green);
 }
 
-/* @media screen and (min-width: 768px) and (max-width: 1020px) {
-  #nav {
-    display: flex;
-    justify-content: space-between;
-  }
-} */
+.fill-accent {
+  fill: var(--color-green);
+}

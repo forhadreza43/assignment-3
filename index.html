@@ -21,14 +21,21 @@
     ></script>
   </head>
   <body class="font-sora">
-    <header>
-      <nav id="nav">
+    <header class="bg-gradient-to-t from-choko to-white/0">
+      <nav
+        id="nav"
+        class="mb-12 border-b-1 border-accent sm:mb-22 md:border-none"
+      >
         <div
-          class="mx-auto grid w-11/12 max-w-[1320px] grid-cols-2 items-center justify-items-center py-6 lg:grid-cols-3"
+          class="mx-auto grid w-11/12 max-w-[1320px] grid-cols-2 items-center justify-items-center py-3 sm:py-6 lg:grid-cols-3"
         >
           <!-- logo  -->
           <div class="justify-self-start">
-            <img src="./assets/logo-header.png" alt="" />
+            <img
+              src="./assets/logo-header.png"
+              alt=""
+              class="w-[120px] sm:w-[154px]"
+            />
           </div>
 
           <!-- menu  -->
@@ -41,8 +48,8 @@
           </div>
 
           <!-- buttons  -->
-          <div class="hidden justify-self-end md:block">
-            <div class="flex items-center gap-3">
+          <div class="justify-self-end">
+            <div class="hidden items-center gap-3 md:flex">
               <div>
                 <button class="btn btn-circle w-[20px] btn-ghost">
                   <img src="./assets/search.png" alt="" />
@@ -68,9 +75,47 @@
                 </button>
               </div>
             </div>
+
+            <!-- hamburger  -->
+            <div class="md:hidden">
+              <button class="w-[22px]">
+                <!-- <img src="./assets/menu.png" alt="" /> -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height=""
+                  width="22"
+                  viewBox="0 0 448 512"
+                  class="fill-green"
+                >
+                  <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                  <path
+                    d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"
+                  />
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
       </nav>
+      <div class="mx-auto grid w-11/12 max-w-[1320px] text-center">
+        <div class="mx-auto max-w-[800px]">
+          <h1 class="text-3xl font-semibold text-dark sm:text-[3.5rem]">
+            Freshness <span class="text-accent">You Can Count</span> On, Prices
+            You'll Love!
+          </h1>
+          <p class="my-4 sm:my-8 sm:text-lg">
+            Shop your daily essentials at unbeatable prices. From fresh produce
+            to pantry staples, we've got you covered every day!
+          </p>
+        </div>
+        <div>
+          <img
+            class="animate__animated animate__heartBeat w-full"
+            src="./assets/hero-vegetables.png"
+            alt=""
+          />
+        </div>
+      </div>
     </header>
   </body>
 </html>
