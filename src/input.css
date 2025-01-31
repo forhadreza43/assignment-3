@@ -29,3 +29,7 @@
 .fill-accent {
   fill: var(--color-green);
 }
+
+input::placeholder {
+  font-size: 1rem;
+}

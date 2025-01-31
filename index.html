@@ -31,11 +31,13 @@
         >
           <!-- logo  -->
           <div class="justify-self-start">
-            <img
-              src="./assets/logo-header.png"
-              alt=""
-              class="w-[120px] sm:w-[154px]"
-            />
+            <a href="">
+              <img
+                src="./assets/logo-header.png"
+                alt=""
+                class="w-[120px] sm:w-[154px]"
+              />
+            </a>
           </div>
 
           <!-- menu  -->
@@ -50,26 +52,30 @@
           <!-- buttons  -->
           <div class="justify-self-end">
             <div class="hidden items-center gap-3 md:flex">
-              <div>
-                <button class="btn btn-circle w-[20px] btn-ghost">
-                  <img src="./assets/search.png" alt="" />
+              <div class="flex items-center justify-center">
+                <button
+                  class="w-5 rounded-full duration-800 hover:cursor-pointer"
+                >
+                  <img src="./assets/search.png" alt="" class="w-full" />
                 </button>
               </div>
               <div>
-                <button class="btn btn-circle w-[22px] btn-ghost">
+                <button
+                  class="w-5 rounded-full duration-800 hover:cursor-pointer"
+                >
                   <img src="./assets/shopping-cart.png" alt="" />
                 </button>
               </div>
               <div>
                 <button
-                  class="btn rounded-lg border border-accent bg-white px-8 text-xl btn-xs font-normal text-dark btn-outline sm:btn-sm md:btn-md"
+                  class="btn rounded-lg border border-accent bg-white px-8 text-xl btn-xs font-normal text-dark shadow-none btn-outline sm:btn-sm md:btn-md"
                 >
                   Login
                 </button>
               </div>
               <div>
                 <button
-                  class="btn rounded-lg border border-accent bg-accent px-8 text-xl btn-xs font-normal text-white btn-outline sm:btn-sm md:btn-md"
+                  class="btn rounded-lg border border-accent bg-accent px-8 text-xl btn-xs font-normal text-white shadow-none btn-outline sm:btn-sm md:btn-md"
                 >
                   Register
                 </button>
@@ -190,7 +196,10 @@
       </section>
 
       <!-- products section  -->
-      <section id="products" class="my-12 bg-choko py-12 sm:my-35 sm:py-35">
+      <section
+        id="products"
+        class="my-12 mb-0 bg-choko py-12 sm:py-35 sm:pt-35"
+      >
         <div class="mx-auto w-11/12 max-w-[1320px]">
           <h2
             class="mb-8 text-2xl font-semibold text-accent sm:mb-12 sm:text-4xl"
@@ -201,20 +210,25 @@
           <!-- green card  -->
           <div class="grid grid-cols-1 md:grid-cols-3">
             <div
-              class="relative mb-6 md:mb-0 md:mr-6 min-h-[318px] rounded-lg bg-gradient-to-br from-[#53DB3A] to-white px-6 py-11 sm:px-8 sm:py-12"
+              class="relative mb-6 min-h-[318px] rounded-lg bg-gradient-to-br from-[#53DB3A] to-white px-6 py-11 sm:px-8 sm:py-12 md:mr-6 md:mb-0"
             >
-              <h2 class="text-[1.6rem] font-semibold text-white sm:text-[2rem]">
-                30% off
-              </h2>
-              <p class="my-4.2 text-xs sm:my-5 sm:text-[1rem]">
-                Discover a world of treats, toys, and essentials handpicked for
-              </p>
-              <div>
-                <button
-                  class="btn rounded-lg bg-white px-8 text-xl btn-xs font-normal text-dark sm:btn-sm md:btn-md"
+              <div class="space-y-3 sm:space-y-0">
+                <h2
+                  class="text-[1.6rem] font-semibold text-white sm:text-[2rem]"
                 >
-                  Buy Now
-                </button>
+                  30% off
+                </h2>
+                <p class="my-4.2 text-xs sm:my-5 sm:text-[1rem]">
+                  Discover a world of treats, toys, and essentials handpicked
+                  for
+                </p>
+                <div>
+                  <button
+                    class="btn rounded-lg bg-white px-8 text-xl btn-xs font-normal text-dark shadow-none sm:btn-sm md:btn-md"
+                  >
+                    Buy Now
+                  </button>
+                </div>
               </div>
               <img
                 src="./assets/vegetable-offer.png"
@@ -401,6 +415,167 @@
           </div>
         </div>
       </section>
+
+      <!-- offer section  -->
+      <section
+        id="services"
+        class="relative mx-auto w-11/12 max-w-[1320px] pt-12 pb-80 md:pt-35 md:pb-100 lg:pb-90"
+      >
+        <h2
+          class="mb-8 text-2xl font-semibold text-accent sm:mb-12 sm:text-4xl"
+        >
+          Arrival & Offers
+        </h2>
+
+        <!-- card container  -->
+        <div class="flex grid-cols-12 flex-col gap-4 lg:grid">
+          <!-- card1 -->
+          <div
+            class="col-span-7 flex items-center justify-between rounded-2xl bg-greenDark p-4 lg:px-8"
+          >
+            <!-- left part  -->
+            <div class="flex flex-1 flex-col">
+              <div><img src="./assets/dawat-logo.png" alt="" /></div>
+              <div>
+                <button
+                  class="btn mt-4 mb-3.5 rounded-lg border-none bg-greenLite p-4 text-sm btn-xs font-normal tracking-widest text-nowrap text-white shadow-none sm:mt-8 sm:mb-6.5 sm:text-2xl sm:btn-sm md:btn-md"
+                >
+                  Cook Exotic Dishes
+                </button>
+              </div>
+              <h2
+                class="font-poppins text-[1.3rem] text-white sm:text-[2.5rem]"
+              >
+                UP to <span class="font-bold">20% OFF</span>
+              </h2>
+            </div>
+            <!-- right part  -->
+            <div>
+              <img
+                src="./assets/dawat-mock-up.png"
+                alt=""
+                class="w-full justify-items-end"
+              />
+            </div>
+          </div>
+          <!-- card2  -->
+          <div
+            class="col-span-5 flex items-center justify-between rounded-2xl bg-blue p-4 lg:pl-8"
+          >
+            <!-- left part  -->
+            <div class="flex flex-1 flex-col">
+              <div><img src="./assets/india-gate-logo.png" alt="" /></div>
+              <div>
+                <button
+                  class="btn mt-1 mb-3.5 rounded-lg border-none bg-blueLite p-4 text-sm btn-xs font-normal tracking-widest text-nowrap text-white shadow-none sm:mt-4 sm:mb-6.5 sm:text-2xl sm:btn-sm md:btn-md"
+                >
+                  World's No.1 Rice
+                </button>
+              </div>
+              <h2
+                class="font-poppins text-[1.3rem] text-white sm:text-[2.5rem]"
+              >
+                UP to <span class="font-bold">20% OFF</span>
+              </h2>
+            </div>
+            <!-- right part  -->
+            <div>
+              <img
+                src="./assets/india-gate-mock-up.png"
+                alt=""
+                class="w-full justify-items-end"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="absolute bottom-0 w-full translate-y-[50%]">
+          <!-- floating card  -->
+          <div
+            class="bottom-0 flex w-full flex-col items-center justify-between gap-6 rounded-2xl bg-choko px-6 py-8 lg:flex-row lg:px-25 lg:py-13"
+          >
+            <!-- fruit image  -->
+            <div>
+              <img src="./assets/vegetable-busket.png" alt="" class="w-full" />
+            </div>
+
+            <!-- input form  -->
+            <div class="flex flex-col gap-4 text-center lg:text-left">
+              <h2
+                class="text-xl font-bold text-accent lg:text-4xl lg:font-semibold lg:text-yellow-400"
+              >
+                Get Grocery News!
+              </h2>
+              <p class="lg:text-xl">
+                Exclusive training tips, ticks, product deals and more.
+              </p>
+              <div>
+                <input
+                  type="text"
+                  placeholder="Enter email...."
+                  class="input input-lg rounded-lg border-none bg-white outline-none focus:outline-none lg:input-xl"
+                />
+              </div>
+              <div>
+                <button
+                  class="rounded-lg border border-accent bg-accent px-6 py-2 text-xl btn-xs text-[1rem] font-normal text-white shadow-none btn-outline sm:btn-sm md:px-7.5 md:py-2.5 md:text-xl md:btn-md"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer class="bg-green text-white">
+      <div
+        class="mx-auto flex w-11/12 max-w-[1320px] flex-col justify-between gap-9 pt-80 pb-12 text-left md:pt-92.5 md:pb-35 lg:flex-row lg:items-end lg:gap-14"
+      >
+        <!-- logo  -->
+        <div class="flex-1 space-y-3">
+          <img src="./assets/logo-footer.png" alt="" />
+          <p class="opacity-70 lg:text-xl">
+            Discover a world of treats, toys, and essentials handpicked for your
+            furry friends
+          </p>
+        </div>
+        <!-- services  -->
+        <div class="flex flex-1 flex-col gap-5 lg:gap-8 lg:text-xl">
+          <a href="">Product</a>
+          <a href="">Services</a>
+          <a href="">Contact us</a>
+        </div>
+        <!-- social -->
+        <div class="space-y-4">
+          <h2 class="flex-1 lg:text-xl">Follow Us</h2>
+          <div class="flex gap-8">
+            <a href=""
+              ><i
+                class="fa-brands fa-facebook fa-xl md:fa-2xl"
+                style="color: #ffffff"
+              ></i
+            ></a>
+            <a href=""
+              ><i
+                class="fa-brands fa-instagram fa-xl md:fa-2xl"
+                style="color: #ffffff"
+              ></i
+            ></a>
+            <a href=""
+              ><i
+                class="fa-brands fa-linkedin fa-xl md:fa-2xl"
+                style="color: #ffffff"
+              ></i
+            ></a>
+            <a href=""
+              ><i
+                class="fa-brands fa-youtube fa-xl md:fa-2xl"
+                style="color: #ffffff"
+              ></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
