@@ -2590,6 +2590,9 @@
   .bg-\[url\(\.\/assects\/bg_3\.jpg\)\] {
     background-image: url(./assects/bg_3.jpg);
   }
+  .bg-\[url\(\.\/assets\/bg_3\.jpg\)\] {
+    background-image: url(./assets/bg_3.jpg);
+  }
   .bg-\[url\(\/a\/mountains\.jpg\)\] {
     background-image: url(/a/mountains.jpg);
   }
@@ -2602,8 +2605,17 @@
   .bg-\[url\(\/assects\/bg_3\.jpg\)\] {
     background-image: url(/assects/bg_3.jpg);
   }
+  .bg-\[url\(\/assets\/bg_3\.\)\] {
+    background-image: url(/assets/bg_3.);
+  }
   .bg-\[url\(\/assets\/bg_3\.jpg\)\] {
     background-image: url(/assets/bg_3.jpg);
+  }
+  .bg-\[url\(\/assets\/bg_3\.p\)\] {
+    background-image: url(/assets/bg_3.p);
+  }
+  .bg-\[url\(\/assets\/bg_3\.png\)\] {
+    background-image: url(/assets/bg_3.png);
   }
   .bg-\[url\(\/assets\/mountains\.jpg\)\] {
     background-image: url(/assets/mountains.jpg);
