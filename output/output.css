@@ -2952,6 +2952,9 @@
   .text-amber-500 {
     color: var(--color-amber-500);
   }
+  .text-black {
+    color: var(--color-black);
+  }
   .text-dark {
     color: var(--color-dark);
   }
@@ -3814,6 +3817,16 @@
     @media (width >= 64rem) {
       --tw-font-weight: var(--font-weight-semibold);
       font-weight: var(--font-weight-semibold);
+    }
+  }
+  .lg\:\!text-dark {
+    @media (width >= 64rem) {
+      color: var(--color-dark) !important;
+    }
+  }
+  .lg\:\!text-yellow-400 {
+    @media (width >= 64rem) {
+      color: var(--color-yellow-400) !important;
     }
   }
   .lg\:text-black {
